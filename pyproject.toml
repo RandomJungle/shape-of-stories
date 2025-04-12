@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "shape-of-stories"
+version = "0.1.0"
+description = ""
+authors = ["Juliette Bourquin <bourquinjuliette@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+plotly = "^6.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
